@@ -9,23 +9,22 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>concurrent</artifactId>
+    <artifactId>spring-boot</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>springboot-demo</module>
+        <module>my-springboot</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
     </properties>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
-        </dependency>
-    </dependencies>
+
+
+
 
 </project>

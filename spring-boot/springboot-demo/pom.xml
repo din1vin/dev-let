@@ -5,11 +5,11 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>org.example</groupId>
-        <artifactId>devlet</artifactId>
+        <artifactId>spring-boot</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>concurrent</artifactId>
+    <artifactId>springboot-demo</artifactId>
 
     <properties>
         <maven.compiler.source>11</maven.compiler.source>
@@ -19,12 +19,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>ch.qos.logback</groupId>
-            <artifactId>logback-classic</artifactId>
+            <groupId>org.example</groupId>
+            <artifactId>my-springboot</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

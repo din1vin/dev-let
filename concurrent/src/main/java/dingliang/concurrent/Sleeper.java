@@ -13,4 +13,8 @@ public class Sleeper {
             throw new RuntimeException(e);
         }
     }
+
+    public static void sleep(int sec){
+        sleep(sec,TimeUnit.SECONDS);
+    }
 }
