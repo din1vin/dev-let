@@ -1,7 +1,5 @@
 package dl.algorithm.c04heap;
 
-import java.util.Arrays;
-
 /**
  * @author WuJi
  **/

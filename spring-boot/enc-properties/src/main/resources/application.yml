@@ -1,0 +1,14 @@
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306?test
+    username: root
+    password: din1vin
+    driver-class-name: com.mysql.jdbc.Driver
+
+jasypt:
+  encryptor:
+    bootstrap: true
+    password: biu_boom
+server:
+  port: 8888

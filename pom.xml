@@ -15,6 +15,7 @@
         <module>concurrent</module>
         <module>algorithm</module>
         <module>spring-boot</module>
+        <module>spring-boot/enc-properties</module>
     </modules>
 
     <properties>
